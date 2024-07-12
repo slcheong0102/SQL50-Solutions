@@ -1,0 +1,11 @@
+/*
+Create Date: 07/12/2024
+Description: 1757. Recycable and Low Fat Products
+*/
+
+SELECT
+    product_id
+FROM
+    Products
+WHERE
+    low_fats = 'Y' AND recyclable = 'Y'
